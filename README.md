@@ -1,7 +1,5 @@
 # RESTful ASP.NET FlightGear
 
-![Alt text](/map.jpg?raw=true "image")
-
 Serves the following URLs: 
 
 ### /display/ip/port
@@ -19,3 +17,5 @@ Saves to the file 'filename' the path of the plane until 'duration' seconds have
 ### /display/filename/frequency
 
 Loads the saved path of the plane from 'filename' and displays it according to the specified frequency.
+
+![Alt text](/map.jpg?raw=true "image")
