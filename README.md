@@ -8,14 +8,14 @@ Connects to the simulator according the given IP and port, and displays the airp
 
 ### /display/ip/port/frequency
 
-Similar to the previous one, only now presenting the displaying the position in the specified frequency in real time ('frequency' times a second).
+Similar to the previous one, only now displaying the position in the specified frequency in real time ('frequency' times a second).
 
 ### /save/ip/port/frequency/duration/filename
 
-Saves to the file 'filename' the path of the plane until 'duration' seconds have elapsed, according to the specified frequency.
+Samples the locations of the plane for the next 'duration' seconds (according to the specified frequency), and saves the path to the file 'filename'.
 
 ### /display/filename/frequency
 
-Loads the saved path of the plane from 'filename' and displays it according to the specified frequency.
+Loads the saved path of the plane from 'filename' and displays it in animation according to the specified frequency.
 
 ![Alt text](/map.jpg?raw=true "image")
