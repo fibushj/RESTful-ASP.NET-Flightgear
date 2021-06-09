@@ -3,6 +3,7 @@
 ![Alt text](/map.jpg?raw=true "image")
 
 Serves the following URLs: 
+
 <h2>_/display/ip/port_<h2>
 
 Connects to the simulator according the given IP and port, and displays the airplane's location on the map.
